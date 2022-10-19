@@ -9,7 +9,7 @@ bool HasThreeDigits(int input)
 }
 void GetThirdDigit(int input)
 {
-    while (input > 1000)
+    while (input >= 1000)
     {
         input = input / 10;
     }
