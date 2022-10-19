@@ -7,7 +7,7 @@ int secondCheck = input % 100; //для чисел, который заканч�
 
 void HasCorrectEnding(int input, int check)
 {
-    if (secondCheck > 10 && secondCheck < 20)
+    if (secondCheck >= 10 && secondCheck <= 20)
     {
         Console.WriteLine("В комнате " + input + " программистов.");
     }
