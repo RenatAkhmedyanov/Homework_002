@@ -21,7 +21,7 @@ void HasCorrectEnding(int input, int check)
         {
             Console.WriteLine("В комнате " + input + " программиста.");
         }
-        if (check >= 5)
+        if (check >= 5 || check == 0)
         {
             Console.WriteLine("В комнате " + input + " программистов.");
         }
